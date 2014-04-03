@@ -40,6 +40,11 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+
+# Gemfile addition to add New Relic to my app as per my Bloc.io lesson
+
+gem 'newrelic_rpm'
+
 end
 
 # Use ActiveModel has_secure_password
