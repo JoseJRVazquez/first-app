@@ -5,7 +5,7 @@ gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
 # Gemfile changed so that sqlite is used while testing and being developed
-# and Postgres is used when deployed for production
+# and Postgres is used when deployed for production to heroku
 
 group :production do
   gem 'pg'
